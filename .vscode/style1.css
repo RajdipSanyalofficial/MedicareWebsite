@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /* border: 7px solid; */
+    padding: 28px;
+}
+
+.carousel-inner{
+
+    width: 100%;
+    height: 60vh;
+}

@@ -8,7 +8,7 @@ body{
 
 .navbar-brand{
     font-size: 1.53rem ;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -259,11 +259,19 @@ p > .fas {
   
 
     /* for responsie na icon at mobile screen*/
-    @media(max-width:415px) and (min-width:279px) {
+    @media(max-width:541px) and (min-width:279px) {
 
         .navbar-expand-lg .navbar-nav .nav-link {
             margin-left: 0.8rem;
         }
+
+        .carousel-inner img {
+
+          width: 100%;
+          height: 46vh;
+          margin-top: 0%;
+          margin-right: 0%;
+      }
         
     }
     /* end for responsie na icon at mobile screen*/
@@ -293,13 +301,22 @@ p > .fas {
   @media(max-width:1025px) and (min-width:768px) {
 
     .banner {
-      height: 99vh;
+      height: 66vh;
       background-image: url(501011.jpeg);
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
       padding-top: 32%;
   }
+
+  .carousel-inner img {
+
+    width: 100%;
+    height: 42vh;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+  
 
   #tyty
     {

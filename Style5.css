@@ -124,8 +124,43 @@ button.btn.btn-primary{
         .navbar-expand-lg .navbar-nav .nav-link {
             margin-left: 0.8rem;
         }
+
+        .carousel-inner img {
+
+            width: 100%;
+            height: 42vh;
+            margin-top: 0%;
+            margin-right: 0%;
+        }
         
     }
+
+    @media(max-width:768px) and (min-width:416px) {
+
+        .carousel-inner img {
+
+            width: 100%;
+            height: 44.5vh;
+            margin-top: 0%;
+            margin-right: 0%;
+        }
+        
+
+    }
+
+
+    @media(max-width:1025px) and (min-width:768px) 
+        {
+
+            .carousel-inner img {
+
+                width: 100%;
+                height: 41vh;
+                margin-top: 0%;
+                margin-right: 0%;
+            }
+
+        }
     /* end for responsie na icon at mobile screen*/
 
 /* Footer section css */
@@ -196,7 +231,7 @@ button.btn.btn-primary{
 
     #paragraph {
         margin-left: 2.2%;
-        margin-top: 0.7%;
+        margin-top: 1.5%;
         font-size: 12px;
     }
 
@@ -223,6 +258,8 @@ button.btn.btn-primary{
     }
   }
 
+  
+
 
   /* heading */
 
@@ -246,6 +283,18 @@ button.btn.btn-primary{
     }
 
   /* heading */
+
+  @media (max-width:1025px) and (min-width:767px){
+
+
+    .carousel-inner img {
+        width: 100%;
+        height: 44.8vh;
+        margin-top: 0%;
+        margin-right: 0%;
+        filter: blur(1.4px);
+    }
+  }
 
 
 
